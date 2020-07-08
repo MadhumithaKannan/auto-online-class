@@ -61,7 +61,7 @@ def main():
         #all the urls for respective subjects
 
         sna_url = 'https://meet.google.com/lookup/ftoxsbb3wr'
-        gta_url = 'https://meet.google.com/lookup/bavtm6lgg3'
+        gta_url = 'https://meet.google.com/lookup/apdnv7fyah'
         rmt_url = 'https://meet.google.com/lookup/gq5gtnrujk'
         cns_url = 'https://meet.google.com/lookup/cth44zanx3'
         da_url = 'https://meet.google.com/lookup/htv3hncc5a'
@@ -96,8 +96,8 @@ def main():
 
         #exit()
 
-        #scheduling the exit at 2:30 everyday
-        schedule.every().day.at('02:30').do(exit)
+        #scheduling the exit at 2:30pm everyday
+        schedule.every().day.at('14:30').do(exit)
 
         #calls the scheduler
         while True:
